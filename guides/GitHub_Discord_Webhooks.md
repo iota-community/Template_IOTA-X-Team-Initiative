@@ -5,16 +5,15 @@
 # GitHub Webhooks to Discord
 
 This guide explains how to get issues from GitHub into the IOTA Experience Team channels.
-Every IOTA Experience Team Initiative is assigned a GitHub repository in the iota-community group. It is possible to set up webhooks, to cross-communicate initiatives and events from GitHub to Discord.
+Every IOTA Experience Team Initiative is assigned a GitHub repository in the iota-community group. It is possible to set up webhooks, to cross-communicate initiatives and events from GitHub to Discord.  
 *example*:
-
 ![](../resources/images/gh_dc_webhooks/01_example.png)
 
 ## Instructions
 
 In **this example** we will set up the webhook for the **IOTA Streams Experience Team**.
 
-1. Go to the X-Team relative channel in Discord and **Edit the channel ** 
+1. Go to the X-Team relative channel in Discord and **Edit Channel**
    ![](../resources/images/gh_dc_webhooks/02_channels.png)
 
 2. Clieck on **Webhooks** on the left side and then on the **Create Webhook** button on the right side
@@ -22,11 +21,10 @@ In **this example** we will set up the webhook for the **IOTA Streams Experience
 
 3. Change the name to **GitHub**, click on the **Copy** button to copy the webhook link and click on the **Save** button, to save this settings. *(e.g. of this webhook link:* [*https://discordapp.com/api/webhooks/704234568231682099/oo_wo_qWi-FJXSRnedRvZ0yoDuhkn7MjZPQ5njtHcy3SQIWCqrXOmRDhBxjGHrqWBAou*](https://discordapp.com/api/webhooks/704234568231682099/oo_wo_qWi-FJXSRnedRvZ0yoDuhkn7MjZPQ5njtHcy3SQIWCqrXOmRDhBxjGHrqWBAou)*)*![](../resources/images/gh_dc_webhooks/04_hooks.png)
 
-4. Now we go to the IOTA Experience Team - IOTA Streams GitHub repository
-   ​https://github.com/iota-community/iotastreams 
+4. Now we go to the IOTA Experience Team - IOTA Streams GitHub repository  
+   https://github.com/iota-community/iotastreams 
 
 5. Here we click on **Settings**, then **Webhooks** and finally the **Add webhook** button
-
    ![](../resources/images/gh_dc_webhooks/05_github.png)
 
 6. Insert your password to confirm  
@@ -35,7 +33,8 @@ In **this example** we will set up the webhook for the **IOTA Streams Experience
 7. In the **Payload URL** field we insert the **webhook link** we copied **from Discord** and add **/github** at the end.
 
    If the link was:
-   https://discordapp.com/api/webhooks/704234568231682099/oo_wo_qWi-FJXSRnedRvZ0yoDuhkn7MjZPQ5njtHcy3SQIWCqrXOmRDhBxjGHrqWBAou
+   https://discordapp.com/api/webhooks/704234568231682099/oo_wo_qWi-FJXSRnedRvZ0yoDuhkn7MjZPQ5njtHcy3SQIWCqrXOmRDhBxjGHrqWBAou  
+   
    Now it is:
    https://discordapp.com/api/webhooks/704234568231682099/oo_wo_qWi-FJXSRnedRvZ0yoDuhkn7MjZPQ5njtHcy3SQIWCqrXOmRDhBxjGHrqWBAou/github
 
