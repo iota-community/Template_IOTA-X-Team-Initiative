@@ -32,12 +32,12 @@ In **this example** we will set up the webhook for the **IOTA Streams Experience
 6. Insert your password to confirm  
    ![](../resources/images/gh_dc_webhooks/06_gh_login.png)
 
-7. In the **Payload URL** field we insert the **webhook link** we copied **from Discord** and **add /github** at the end.
+7. In the **Payload URL** field we insert the **webhook link** we copied **from Discord** and add **/github** at the end.
 
    If the link was:
    https://discordapp.com/api/webhooks/704234568231682099/oo_wo_qWi-FJXSRnedRvZ0yoDuhkn7MjZPQ5njtHcy3SQIWCqrXOmRDhBxjGHrqWBAou
    Now it is:
-   https://discordapp.com/api/webhooks/704234568231682099/oo_wo_qWi-FJXSRnedRvZ0yoDuhkn7MjZPQ5njtHcy3SQIWCqrXOmRDhBxjGHrqWBAou**/github**
+   https://discordapp.com/api/webhooks/704234568231682099/oo_wo_qWi-FJXSRnedRvZ0yoDuhkn7MjZPQ5njtHcy3SQIWCqrXOmRDhBxjGHrqWBAou/github
 
    and we **change** the **Content type** to **application/json**.
 
