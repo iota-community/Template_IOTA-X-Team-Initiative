@@ -14,7 +14,7 @@ Every IOTA Experience Team Initiative is assigned a GitHub repository in the iot
 
 In **this example** we will set up the webhook for the **IOTA Streams Experience Team**.
 
-1. Go to the X-Team relative channel in Discord and **Edit the channel**
+1. Go to the X-Team relative channel in Discord and **Edit the channel ** 
    ![](../resources/images/gh_dc_webhooks/02_channels.png)
 
 2. Clieck on **Webhooks** on the left side and then on the **Create Webhook** button on the right side
@@ -29,7 +29,7 @@ In **this example** we will set up the webhook for the **IOTA Streams Experience
 
    ![](../resources/images/gh_dc_webhooks/05_github.png)
 
-6. Insert your password to confirm
+6. Insert your password to confirm  
    ![](../resources/images/gh_dc_webhooks/06_gh_login.png)
 
 7. In the **Payload URL** field we insert the **webhook link** we copied **from Discord** and **add /github** at the end.
