@@ -13,7 +13,7 @@ Every IOTA Experience Team Initiative is assigned a GitHub repository in the iot
 
 In **this example** we will set up the webhook for the **IOTA Streams Experience Team**.
 
-1. Go to the X-Team relative channel in Discord and **Edit Channel**
+1. Go to the X-Team relative channel in Discord and **Edit Channel**  
    ![](../resources/images/gh_dc_webhooks/02_channels.png)
 
 2. Clieck on **Webhooks** on the left side and then on the **Create Webhook** button on the right side
@@ -40,7 +40,7 @@ In **this example** we will set up the webhook for the **IOTA Streams Experience
 
    and we **change** the **Content type** to **application/json**.
 
-   ![](/home/antonio/dev/Template_IOTA-X-Team-Initiative/resources/images/gh_dc_webhooks/07_gh_settings.png)
+   ![](../resources/images/gh_dc_webhooks/07_gh_settings.png)
 
 8. In the **Which events would you like to trigger this webhook** section, chose **Let me select individual events**.
    Now **select** the events that will be **posted to Discord**, adjust accordingly or through experience.
