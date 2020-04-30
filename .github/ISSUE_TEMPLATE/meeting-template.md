@@ -31,7 +31,7 @@ Or in your local time:
 
 # Links
 
-Meeting Minutes:: < Insert hackmd.io Link >
+Meeting Minutes: < Insert hackmd.io Link >
 
 # Agenda
 
